@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="pag1.css">
+            <script src="main.js"></script>
+
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>Aprender Ingles</title>
+    </head>
+    <body>
+
+
+
+
+<div class="header">
+     <img class="logo" src="/images/logo5.png" alt="logo" >
+
+</div>
+
+     <ul>
+
+                  <li><a class="active" href="../index.html"><i class="fa fa-home"></i></a></li>
+                  <li><a href="/ingles/ingles.html"><b>English</b></a></li>
+                  <li><a href="/italiano/italiano.html"><b>Italiano</b></a></li>
+                  <li><a href="/frances/frances.html"><b>Française</b></a></li>
+                   <li><a href="/coreano/coreano.html"><b>한국어</b></a></li>
+                    <li><a href="/portugues/portugues.html"><b>Português</b></a></li>
+         </ul>
+
+<div class="sidenav">
+    <img class="imagen" src="alpaca_portuguesa.png" alt="logo" >
+    <br><br><br>
+    <button class="dropdown-btn">Básico
+    <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+
+  <button class="dropdown-btn">Principiante
+    <i class="fa fa-caret-down"></i>
+  </button>
+    <div class="dropdown-container">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+
+    <button class="dropdown-btn">Intermedio
+    <i class="fa fa-caret-down"></i>
+  </button>
+    <div class="dropdown-container">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+
+  <button class="dropdown-btn">Avanzado
+    <i class="fa fa-caret-down"></i>
+  </button>
+    <div class="dropdown-container">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+
+</div>
+
+<div class="main">
+
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, Dec 7, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <br>
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, Sep 2, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+
+
+<script>
+
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+    </body>
+</html>

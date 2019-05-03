@@ -1,0 +1,200 @@
+
+
+
+@font-face {
+ font-family:new;
+   src: url(/ttf/132.ttf);
+}
+
+* { box-sizing: border-box;}
+
+body{
+    margin: 0;
+    background-color:#FCDEE0;
+
+    }
+
+     /* barra del navegador */
+ul {
+  list-style-type: none;
+  margin-left: 20%;
+  margin-top:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #950E17;
+ position: -webkit-sticky; /* Safari */
+  position: sticky;
+
+  top: 0;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family:new,Arial,Helvetica,sans-serif;
+
+
+}
+
+li a:hover { background-color:#EA202C;}
+
+.active { background-color:#34090C;}
+
+
+/* imagenes */
+.logo {
+    width:25%;
+    height:20%;
+ margin:auto;
+    display:block;
+
+}
+
+.imagen {
+    width:60%;
+    height:40%;
+    margin:auto;
+    display:block;
+
+}
+
+/* imagen header*/
+.header {
+  padding: 80px;
+  text-align: center;
+  background-image: url("/images/london-530055_1280.jpg");
+  background-size: cover;
+  color: white;
+  margin-left:20%;
+
+
+}
+
+
+  /* sidenav #DC143C*/
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position:fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F37C84;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a {
+   padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #FCDEE0;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #34090C;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover {
+  color: #F37C84;
+}
+
+.dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  color:#34090C;
+  margin-left: 20%;
+  font-size: 20px;
+  padding: 0px 10px;
+
+}
+
+
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color:#34090C;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .header {
+    width: 100%;
+    padding: 0;
+  }
+
+   .logo{
+        width:40%;
+        height:40%;
+        position:center;
+        margin:auto;
+        display:block;
+    }
+
+  .row {
+    flex-direction: column;
+  }
+
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .imagen{
+      font-size: 10px;
+    width: 80%;
+    height:50%;
+  }
+    .logo{
+        width:50%;
+        height:50%;
+        margin:auto;
+        display:block;
+    }
+
+    li a {
+    float: none;
+    width: 100%;
+  }
+   ul li {font-size:3px;}
+}
+
+
