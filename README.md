@@ -1,10 +1,10 @@
-# Y18C1-AlpacaPoliglota
+# Y18C1-AlpacaPolíglota
 
 ### Planteamiento de la idea:
 
-  El proyecto trata de una pagina web para aprender idiomas, organizando el contenido por niveles
-  para facilitar al usuario el acceso a las lecciones de forma ordenada. La pagina contara con cinco
-  idiomas principales (Ingles, Italiano, Frances, Portugues y coreano).
+  El proyecto trata de una página web para aprender idiomas, organizando el contenido por niveles
+  para facilitar al usuario el acceso a las lecciones de forma ordenada. La página contará con cinco
+  idiomas principales (Inglés, Italiano, Francés, Portugués y coreano).
   
 ### Lenguajes a utilizar:
   
